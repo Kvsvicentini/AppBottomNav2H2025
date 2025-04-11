@@ -13,11 +13,10 @@
 
 
         <com.google.android.material.appbar.AppBarLayout
-            android:layout_below="@+id/idTopNav"
+            android:id="@+id/AppBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            tools:ignore="NotSibling">
+            android:layout_margin="10dp">
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/idTopNav"
@@ -28,8 +27,22 @@
                 app:titleTextColor="#25D366" />
 
         </com.google.android.material.appbar.AppBarLayout>
-    </RelativeLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AppBar"
+            android:id="@+id/idAppBar"
+            android:hint="Pergunte a Meta AI ou procure uma conversa"
+            android:drawableStart="@drawable/baseline_search"
+
+    </RelativeLayout>
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
