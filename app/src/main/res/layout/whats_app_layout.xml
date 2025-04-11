@@ -30,6 +30,8 @@
         </com.google.android.material.appbar.AppBarLayout>
     </RelativeLayout>
 
+
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/idBottomNav"
         android:layout_width="match_parent"
@@ -37,5 +39,6 @@
         android:layout_gravity="bottom"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/whatsappbottom" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
