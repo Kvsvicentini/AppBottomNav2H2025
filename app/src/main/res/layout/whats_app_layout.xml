@@ -41,6 +41,9 @@
             android:id="@+id/idAppBar"
             android:hint="Pergunte a Meta AI ou procure uma conversa"
             android:drawableStart="@drawable/baseline_search"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
 
     </RelativeLayout>
 
