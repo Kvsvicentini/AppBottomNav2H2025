@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/AppBar"
             android:id="@+id/idAppBar"
-            android:hint="Pergunte a Meta AI ou procure uma conversa"
+            android:hint="@string/pergunte_a_meta_ai_ou_procure_uma_conversa"
             android:drawableStart="@drawable/baseline_search"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>

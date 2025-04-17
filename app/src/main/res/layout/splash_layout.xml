@@ -15,6 +15,13 @@
         android:scaleType="centerCrop"
         android:src="@drawable/whatsapp_icon" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="60sp"
+        android:text="From" />
+
     <ImageView
         android:id="@+id/idMeta"
         android:layout_width="60dp"
